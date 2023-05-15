@@ -76,7 +76,7 @@ const BasketScreen = ({ navigation }) => {
               <Text className="flex-1">{items[0]?.name}</Text>
 
               <Text className="text-gray-600 text-xs">
-                <Currency quantity={items[0]?.price} currency="INR" />
+                <Currency quantity={items[0]?.price} currency="EUR" />
               </Text>
 
               <TouchableOpacity>
@@ -95,19 +95,19 @@ const BasketScreen = ({ navigation }) => {
           <View className="flex-row justify-between">
             <Text className="text-gray-400">Subtotal</Text>
             <Text className="text-gray-400">
-              <Currency quantity={basketTotal} currency="INR" />
+              <Currency quantity={basketTotal} currency="EUR" />
             </Text>
           </View>
           <View className="flex-row justify-between">
             <Text className="text-gray-400">Delivery Fee</Text>
             <Text className="text-gray-400">
-              <Currency quantity={13.3} currency="INR" />
+              <Currency quantity={13.3} currency="EUR" />
             </Text>
           </View>
           <View className="flex-row justify-between">
             <Text className="text-gray-400 font-bold">Order Total</Text>
             <Text className=" text-[#1f1f20] font-extrabold">
-              <Currency quantity={basketTotal + 13.3} currency="INR" />
+              <Currency quantity={basketTotal + 13.3} currency="EUR" />
             </Text>
           </View>
 
