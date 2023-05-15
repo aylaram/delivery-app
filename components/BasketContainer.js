@@ -20,7 +20,7 @@ return null
         </Text>
         <Text className="flex-1 text-white font-extrabold text-center">View basket</Text>
         <Text className="text-lg text-white font-extrabold">
-          <Currency quantity={basketTotalPrice} currency="INR" />
+          <Currency quantity={basketTotalPrice} currency="EUR" />
         
         </Text>
       </TouchableOpacity>
