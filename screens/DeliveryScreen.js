@@ -80,7 +80,7 @@ const DeliveryScreen = ({ navigation }) => {
           className="h-12 w-12 bg-gray-300 rounded-full "
         />
         <View className="flex-1 ">
-          <Text className="text-lg">Ahmed Ashraf</Text>
+          <Text className="text-lg">Joni</Text>
           <Text className="text-gray-400">Your Rider</Text>
         </View>
 
